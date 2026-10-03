@@ -1,0 +1,22 @@
+{
+	"name": "pi-shake",
+	"version": "0.1.0",
+	"type": "module",
+	"description": "Elide heavy context (tool results, large blocks, images, thinking) via pi context_edit overlays",
+	"keywords": ["pi-package"],
+	"pi": {
+		"extensions": ["./index.ts"]
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": "*"
+	},
+	"files": ["index.ts", "src", "docs", "README.md"],
+	"license": "MIT",
+	"devDependencies": {
+		"fast-check": "^4.10.2",
+		"oxfmt": "0.71.0",
+		"oxlint": "1.86.0",
+		"publint": "^0.3.25",
+		"typescript": "7.0.2"
+	}
+}
